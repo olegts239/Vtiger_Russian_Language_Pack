@@ -1,23 +1,23 @@
 <?php
 /*+**********************************************************************************
- * The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * The contents of this file are subject to the vtiger CRM Public License Version 1.1
  * ("License"); You may not use this file except in compliance with the License
- * The Original Code is:  vtiger CRM Open Source
- * The Initial Developer of the Original Code is vtiger.
- * Portions created by vtiger are Copyright (C) vtiger.
+ * The Original Code is: EntExt
+ * The Initial Developer of the Original Code is EntExt.
  * All Rights Reserved.
+ * If you have any questions or comments, please email: devel@entext.com
  ************************************************************************************/
 $languageStrings = array(
 	'SINGLE_Invoice'               => 'Счет'                    , 
 	'LBL_EXPORT_TO_PDF'            => 'Экспорт в PDF'       , 
-	'LBL_SEND_MAIL_PDF'            => 'Отправить на e-mail с PDF'         , 
+	'LBL_SEND_MAIL_PDF'            => 'Отправить PDF по E-mail:'         ,
 	'LBL_ADD_RECORD'               => 'Добавить Счет'                 , 
-	'LBL_RECORDS_LIST'             => 'Список Счетов'   , // KEY 5.x: LBL_LIST_FORM_TITLE
+	'LBL_RECORDS_LIST'             => 'Список Счетов',
 	'LBL_INVOICE_INFORMATION'      => 'Информация Счета', 
-	'Sales Order'                  => 'Заказ на Продажу', 
+	'Sales Order'                  => 'Заказ',
 	'Customer No'                  => 'Номер Клиента'   , 
 	'Invoice Date'                 => 'Дата'                    , 
-	'Purchase Order'               => 'Заказ на Закупку', 
+	'Purchase Order'               => 'Закупка',
 	'Sales Commission'             => 'Комиссия'            , 
 	'Invoice No'                   => 'Счет №'                , 
 	'LBL_RECEIVED'                 => 'Получено'                    , 
@@ -25,9 +25,13 @@ $languageStrings = array(
 	'Sent'                         => 'Отправлен'          , 
 	'Credit Invoice'               => 'Просрочен'          , 
 	'Paid'                         => 'Оплачен'              , 
-	'AutoCreated'                  => 'АвтоСоздан'        , 
-	'Cancel'                       => 'Отменить'            , // KEY 5.x: LBL_CANCEL_BUTTON_LABEL
-	'LBL_NOT_A_BUNDLE' => 'Не Bundle',
-	'LBL_SUB_PRODUCTS'	=> 'Вспомогательные изделия',
-	'LBL_ACTION'	=> 'Действие',
+	'AutoCreated'                  => 'Автосоздан'        ,
+	'Cancel'                       => 'Отменен',
+	'LBL_NOT_A_BUNDLE'             => 'Не пакет',
+	'LBL_SUB_PRODUCTS'	           => 'Вспомогательные изделия',
+	'LBL_ACTION'	               => 'Действие',
+
+
+    'Created'                      => 'Создан',
+    'Approved'                     => 'Одобрен',
 );

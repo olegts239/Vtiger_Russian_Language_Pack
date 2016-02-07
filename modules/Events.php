@@ -1,54 +1,54 @@
 <?php
 /*+**********************************************************************************
- * The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * The contents of this file are subject to the vtiger CRM Public License Version 1.1
  * ("License"); You may not use this file except in compliance with the License
- * The Original Code is:  vtiger CRM Open Source
- * The Initial Developer of the Original Code is vtiger.
- * Portions created by vtiger are Copyright (C) vtiger.
+ * The Original Code is: EntExt
+ * The Initial Developer of the Original Code is EntExt.
  * All Rights Reserved.
+ * If you have any questions or comments, please email: devel@entext.com
  ************************************************************************************/
 $languageStrings = array(
 	'Events'                       => 'События'              , 
 	'SINGLE_Events'                => 'Событие'              , 
-	'LBL_ADD_RECORD'               => 'Добавить событие'                   ,
+	'LBL_ADD_RECORD'               => 'Добавить Событие'                   ,
 	'LBL_RECORDS_LIST'             => 'Список'                   ,
-	'LBL_EVENTS'                   => 'События'              , // KEY 5.x: Events
-	'LBL_TODOS'                    => 'Календарь'          , // KEY 5.x: SINGLE_Calendar
-	'LBL_HOLD_FOLLOWUP_ON'         => 'Держите последующих на'      ,
+	'LBL_EVENTS'                   => 'События',
+	'LBL_TODOS'                    => 'Календарь',
+	'LBL_HOLD_FOLLOWUP_ON'         => 'Последующее напоминание в'      ,
     'LBL_CREATE_FOLLOWUP_EVENT'    => 'Создание следить за событие' ,
-	'LBL_EVENT_INFORMATION'        => 'Детали события'               ,
-	'LBL_RECURRENCE_INFORMATION'   => 'Повторение Подробнее'          ,
+	'LBL_EVENT_INFORMATION'        => 'Детали События'               ,
+	'LBL_RECURRENCE_INFORMATION'   => 'Повторить'          ,
 	'LBL_RELATED_TO'               => 'Связан с'             , 
-	'Start Date & Time'            => 'Дата и Время Начала', 
-	'Recurrence'                   => 'Повторение'                      ,
+	'Start Date & Time'            => 'Дата и время начала',
+	'Recurrence'                   => 'Повторить'                      ,
 	'Send Notification'            => 'Отправить уведомление'           ,
-	'Location'                     => 'Расположение'                    ,
+	'Location'                     => 'Место проведения'                    ,
 	'Send Reminder'                => 'Отправить напоминание'               ,
-	'End Date & Time'              => 'Дата и Время Завершения', 
-	'Activity Type'                => 'Тип Действия'     , 
+	'End Date & Time'              => 'Дата и время завершения',
+	'Activity Type'                => 'Тип действия'     ,
 	'Visibility'                   => 'Видимость'                  ,
-	'Private'                      => 'Личное'                , // KEY 5.x: PRIVATE_FILTER
-	'Public'                       => 'Публичное'          , // KEY 5.x: LBL_PUBLIC
+	'Private'                      => 'Личное',
+	'Public'                       => 'Публичное',
 	'Call'                         => 'Звонок'                , 
 	'Meeting'                      => 'Встреча'              , 
 	'Planned'                      => 'Запланировано'  , 
-	'Held'                         => 'Приостановлено', 
-	'Not Held'                     => 'Не остановлено' , 
-	'LBL_DAYS'                     => 'Дни'                        ,
-	'LBL_HOURS'                    => 'Часов'                       ,
-	'LBL_DAYS_TYPE'                => 'День (ы)'                      ,
-	'LBL_WEEKS_TYPE'               => 'Неделя (ы)'                     ,
-	'LBL_MONTHS_TYPE'              => 'Месяц (ы)'                    ,
+	'Held'                         => 'Проведено',
+	'Not Held'                     => 'Не проведено' ,
+	'LBL_DAYS'                     => 'дней'                        ,
+	'LBL_HOURS'                    => 'часов'                       ,
+	'LBL_DAYS_TYPE'                => 'День'                      ,
+	'LBL_WEEKS_TYPE'               => 'Неделя'                     ,
+	'LBL_MONTHS_TYPE'              => 'Месяц'                    ,
 	'LBL_YEAR_TYPE'                => 'Год'                        ,
 	'LBL_FIRST'                    => 'Первая'                , 
 	'LBL_LAST'                     => 'Последняя'          , 
-	'LBL_SM_SUN'                   => 'Солнце'                         ,
-	'LBL_SM_MON'                   => 'Понедельник'                         ,
-	'LBL_SM_TUE'                   => 'Вторник'                         ,
-	'LBL_SM_WED'                   => 'Среда'                         ,
-	'LBL_SM_THU'                   => 'Тре'                         ,
-	'LBL_SM_FRI'                   => 'Пятница'                         ,
-	'LBL_SM_SAT'                   => 'Суббота'                         ,
+	'LBL_SM_SUN'                   => 'Вс'                         ,
+	'LBL_SM_MON'                   => 'Пн'                         ,
+	'LBL_SM_TUE'                   => 'Вт'                         ,
+	'LBL_SM_WED'                   => 'Ср'                         ,
+	'LBL_SM_THU'                   => 'Чт'                         ,
+	'LBL_SM_FRI'                   => 'Пт'                         ,
+	'LBL_SM_SAT'                   => 'Сб'                         ,
 	'LBL_DAY0'                     => 'Воскресенье'                      ,
 	'LBL_DAY1'                     => 'Понедельник'                      ,
 	'LBL_DAY2'                     => 'Вторник'                     , 
@@ -56,15 +56,20 @@ $languageStrings = array(
 	'LBL_DAY4'                     => 'Четверг'                    , 
 	'LBL_DAY5'                     => 'Пятница'                      , 
 	'LBL_DAY6'                     => 'Суббота'                    , 
-	'Daily'                        => 'День (ы)'                      , 
-	'Weekly'                       => 'Неделя (ы)'                     , 
-	'Monthly'                      => 'Месяц (ы)'                    , 
-	'Yearly'                       => 'Год'                        , 
-	'LBL_REPEATEVENT'              => 'Раз в'        , 
+	'Daily'                        => 'Ежедневно'                      ,
+	'Weekly'                       => 'Еженедельно'                     ,
+	'Monthly'                      => 'Ежемесячно'                    ,
+	'Yearly'                       => 'Ежегодно'                        ,
+	'LBL_REPEATEVENT'              => 'Повторить один раз в каждые'        ,
 	'LBL_UNTIL'                    => 'До'                       , 
 	'LBL_DAY_OF_THE_MONTH'         => 'день месяца'            , 
-	'LBL_ON'                       => 'на'                          , 
-	'LBL_CALENDAR_VIEW'            => 'Календарь Просмотр'               , 
-	'LBL_INVITE_USER_BLOCK'        => 'Приглашать'                      , 
-	'LBL_INVITE_USERS'             => 'Пригласить пользователей'                , 
+	'LBL_ON'                       => ' '                          ,
+	'LBL_CALENDAR_VIEW'            => 'Представление календаря'               ,
+	'LBL_INVITE_USER_BLOCK'        => 'Пригласить'                      ,
+	'LBL_INVITE_USERS'             => 'Пользователи'                ,
+
+
+    'Medium'                       => 'Средний',
+    'Mobile Call'                  => 'Звонок с мобильного',
+    'Busy'                         => 'Занят',
 );

@@ -1,25 +1,25 @@
 <?php
 /*+**********************************************************************************
- * The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * The contents of this file are subject to the vtiger CRM Public License Version 1.1
  * ("License"); You may not use this file except in compliance with the License
- * The Original Code is:  vtiger CRM Open Source
- * The Initial Developer of the Original Code is vtiger.
- * Portions created by vtiger are Copyright (C) vtiger.
+ * The Original Code is: EntExt
+ * The Initial Developer of the Original Code is EntExt.
  * All Rights Reserved.
+ * If you have any questions or comments, please email: devel@entext.com
  ************************************************************************************/
 $languageStrings = array(
-	'LBL_ADD_RECORD'               => 'Добавить Валюта'                , 
-	'LBL_EDIT_CURRENCY'            => 'Редактировать валют'               , 
-	'LBL_ADD_NEW_CURRENCY'         => 'Добавить новую валюту'            , 
-	'LBL_CURRENCY_NAME'            => 'Валюта'                , 
-	'LBL_CURRENCY_CODE'            => 'Код Валюты'         , 
-	'LBL_CURRENCY_SYMBOL'          => 'Символ'                , 
-	'LBL_CONVERSION_RATE'          => 'Обменный курс'   , 
-	'LBL_ENTER_CONVERSION_RATE'    => 'Введите Коэффициент конверсии'       , 
-	'LBL_CURRENCY_STATUS_DESC'     => 'Включить флажок, чтобы валюта активность', 
-	'LBL_TRANSFER_CURRENCY'        => 'Конвертировать Валюту', 
-	'LBL_CURRENT_CURRENCY'         => 'Основная Валюта', 
-	'Albania, Leke'                => 'Albania, Leke'               , // TODO: Review
+    'LBL_ADD_RECORD'               => 'Добавить Валюту'                , // TODO: Review
+    'LBL_EDIT_CURRENCY'            => 'Редактировать Валюту'               , // TODO: Review
+    'LBL_ADD_NEW_CURRENCY'         => 'Добавить Валюту'            , // TODO: Review
+    'LBL_CURRENCY_NAME'            => 'Валюта'                ,
+    'LBL_CURRENCY_CODE'            => 'Код Валюты'         ,
+    'LBL_CURRENCY_SYMBOL'          => 'Символ'                ,
+    'LBL_CONVERSION_RATE'          => 'Обменный курс'   ,
+    'LBL_ENTER_CONVERSION_RATE'    => 'Введите обменный курс',
+    'LBL_CURRENCY_STATUS_DESC'     => 'Включить флажок, чтобы Валюта была активной',
+    'LBL_TRANSFER_CURRENCY'        => 'Заменить Валюту',
+    'LBL_CURRENT_CURRENCY'         => 'Текущая Валюта',
+    'Albania, Leke'                => 'Albania, Leke'               , // TODO: Review
 	'Argentina, Pesos'             => 'Argentina, Pesos'            , // TODO: Review
 	'Aruba, Guilders'              => 'Aruba, Guilders'             , // TODO: Review
 	'Australia, Dollars'           => 'Australia, Dollars'          , // TODO: Review
@@ -149,8 +149,15 @@ $languageStrings = array(
 	'Malawi, kwacha'               => 'Malawi, kwacha'              , // TODO: Review
 	'Tunisian, Dinar'              => 'Tunisian, Dinar'             , // TODO: Review
 	'Moroccan, Dirham'             => 'Moroccan, Dirham'            , // TODO: Review
+
+
+
+    'Currency Code' => 'Код валюты',
+    'Currency Name' => 'Валюта',
+    'Symbol' => 'Символ',
+    'Conversion Rate' => 'Курс',
 );
 $jsLanguageStrings = array(
-	'JS_CURRENCY_DETAILS_SAVED'    => 'Валюта Данные сохранены'      , 
-	'JS_CURRENCY_DELETED_SUEESSFULLY' => 'Валюта успешно удален', 
+    'JS_CURRENCY_DETAILS_SAVED'    => 'Данные Валюты сохранены',
+    'JS_CURRENCY_DELETED_SUEESSFULLY' => 'Валюта успешно удалена',
 );

@@ -8,8 +8,8 @@
  * If you have any questions or comments, please email: devel@entext.com
  ************************************************************************************/
 $languageStrings = array(
-    'EmailTemplate'                => 'Шаблон E-mail'          , // KEY 5.x: LBL_EMAIL_TEMPLATE
-    'LBL_TEMPLATE_NAME'            => 'Имя шаблона'               ,
-    'LBL_DESCRIPTION'              => 'Описание'            ,
-    'LBL_SUBJECT'                  => 'Тема'                    ,
+	'LBL_CHANGE_PASSWORD_FAILURE' => 'Не удалось изменить пароль',
+	'LBL_DATABASE_QUERY_ERROR' => 'Ошибка базы данных при выполнении операции',
+	'LBL_INVALID_OLD_PASSWORD' => 'Неверно указан старый пароль',
+	'LBL_NEW_PASSWORD_MISMATCH' => "Пароли не совпадают",
 );

@@ -1,33 +1,41 @@
 <?php
 /*+**********************************************************************************
- * The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * The contents of this file are subject to the vtiger CRM Public License Version 1.1
  * ("License"); You may not use this file except in compliance with the License
- * The Original Code is:  vtiger CRM Open Source
- * The Initial Developer of the Original Code is vtiger.
- * Portions created by vtiger are Copyright (C) vtiger.
+ * The Original Code is: EntExt
+ * The Initial Developer of the Original Code is EntExt.
  * All Rights Reserved.
+ * If you have any questions or comments, please email: devel@entext.com
  ************************************************************************************/
 $languageStrings = array(
-	'LBL_ADD_RECORD'               => 'Добавить PickList зависимости'     , 
-	'LBL_PICKLIST_DEPENDENCY'      => 'Список выбора зависимостей'         , 
-	'LBL_SELECT_MODULE'            => 'Выбрать Модуль' , 
-	'LBL_SOURCE_FIELD'             => 'Источник поля'                , 
-	'LBL_TARGET_FIELD'             => 'Целевой области'                , 
-	'LBL_SELECT_FIELD'             => 'Выберите поле'                , 
-	'LBL_CONFIGURE_DEPENDENCY_INFO' => 'Кликните на соответствующей ячейке, чтобы изменить отображение для списка выбора значений целевой области', 
-	'LBL_CONFIGURE_DEPENDENCY_HELP_1' => 'Только преобразованные значения списка выбора исходного поля будет показано ниже (в первый раз, за ​​исключением)', 
-	'LBL_CONFIGURE_DEPENDENCY_HELP_2' => 'Если вы хотите просмотреть или изменить сопоставление для других значений списка выбора исходного поля, <br/>
-										то вы можете выбрать значения, нажав на <b> \ "Выбрать значений источника \" </ B> кнопку на правой стороне', 
-	'LBL_CONFIGURE_DEPENDENCY_HELP_3' => 'Отдельные значения значений целевых местах, будут выделены,', 
-	'LBL_SELECT_SOURCE_VALUES'     => 'Выбор источника значений'        , 
-	'LBL_SELECT_SOURCE_PICKLIST_VALUES' => 'Выберите Источник PickList значения', 
-	'LBL_ERR_CYCLIC_DEPENDENCY'    => 'Эта установка зависимость не допускается, как она попадает в некоторых циклических зависимости', 
+    'LBL_ADD_RECORD'               => 'Новая зависимость списков'     ,
+    'LBL_PICKLIST_DEPENDENCY'      => 'Настройка зависимостей списков',
+    'LBL_SELECT_MODULE'            => 'Выбрать модуль' ,
+    'LBL_SOURCE_FIELD'             => 'Исходное поле',
+    'LBL_TARGET_FIELD'             => 'Целевое поле',
+    'LBL_SELECT_FIELD'             => 'Выберите поле',
+    'LBL_CONFIGURE_DEPENDENCY_INFO' => 'Кликните на соответствующей ячейке, чтобы изменить отображение значений для целевого списка',
+    'LBL_CONFIGURE_DEPENDENCY_HELP_1' => 'Ниже будут отображаться только связанные значения Исходного поля (за исключением первого раза)',
+    'LBL_CONFIGURE_DEPENDENCY_HELP_2' => 'Если вы желаете посмотреть или изменить связи для других значений Исходного поля, <br/>
+										вы можете выбрать соответствующие значения, нажав на кнопку <b>\'Выбор исходных значений\'</b>',
+    'LBL_CONFIGURE_DEPENDENCY_HELP_3' => 'Выбранные значения целевых полей выделены как',
+    'LBL_SELECT_SOURCE_VALUES'     => 'Выбор исходных значений',
+    'LBL_SELECT_SOURCE_PICKLIST_VALUES' => 'Выбор значений исходного списка',
+    'LBL_ERR_CYCLIC_DEPENDENCY'    => 'Эта зависимость не допускается, так как она попадает некоторые циклические зависимости',
+
+
+
+    'PickListDependency' => 'Настройка зависимостей списков',
+    'Source Field' => 'Исходное поле',
+    'Target Field' => 'Целевое поле',
+    'Module' => 'Модуль',
+    'Selected Values' => 'Выбранные значения',
 );
 $jsLanguageStrings = array(
-	'JS_LBL_ARE_YOU_SURE_YOU_WANT_TO_DELETE' => 'Вы уверены, что хотите удалить этот PickList зависимость?', 
-	'JS_DEPENDENCY_DELETED_SUEESSFULLY' => 'Зависимость успешно удален', 
-	'JS_PICKLIST_DEPENDENCY_SAVED' => 'Список выбора Зависимость Сохранено'   , 
-	'JS_DEPENDENCY_ATLEAST_ONE_VALUE' => 'Вы должны выбрать по крайней мере одно значение для', 
-	'JS_SOURCE_AND_TARGET_FIELDS_SHOULD_NOT_BE_SAME' => 'Источник поля и Целевая поле не должно быть таким же,', 
-	'JS_SELECT_SOME_VALUE'         => 'Выберите определенную ценность'           , 
+    'JS_LBL_ARE_YOU_SURE_YOU_WANT_TO_DELETE' => 'Вы уверены,  что хотите удалить эту зависимость списков?',
+    'JS_DEPENDENCY_DELETED_SUEESSFULLY' => 'Зависимость успешно удалена',
+    'JS_PICKLIST_DEPENDENCY_SAVED' => 'Зависимость списков сохранена',
+    'JS_DEPENDENCY_ATLEAST_ONE_VALUE' => 'Вы должны выбрать по крайней мере одно значение',
+    'JS_SOURCE_AND_TARGET_FIELDS_SHOULD_NOT_BE_SAME' => 'Исходное и целевое поля не должны совпадать',
+    'JS_SELECT_SOME_VALUE'         => 'Выберите значение',
 );

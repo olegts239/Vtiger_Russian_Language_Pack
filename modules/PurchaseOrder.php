@@ -1,29 +1,29 @@
 <?php
 /*+**********************************************************************************
- * The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * The contents of this file are subject to the vtiger CRM Public License Version 1.1
  * ("License"); You may not use this file except in compliance with the License
- * The Original Code is:  vtiger CRM Open Source
- * The Initial Developer of the Original Code is vtiger.
- * Portions created by vtiger are Copyright (C) vtiger.
+ * The Original Code is: EntExt
+ * The Initial Developer of the Original Code is EntExt.
  * All Rights Reserved.
+ * If you have any questions or comments, please email: devel@entext.com
  ************************************************************************************/
 $languageStrings = array(
-	'SINGLE_PurchaseOrder'         => 'Заказ на Закупку', 
-	'LBL_EXPORT_TO_PDF'            => 'Экспорт в PDF'       , 
-	'LBL_SEND_MAIL_PDF'            => 'Отправить на e-mail с PDF'         , 
-	'LBL_ADD_RECORD'               => 'Добавить Заказ'          , 
-	'LBL_RECORDS_LIST'             => 'Список Заказов на Закупку', // KEY 5.x: LBL_LIST_FORM_TITLE
-	'LBL_COPY_SHIPPING_ADDRESS'    => 'Копировать Адрес доставки'       , 
-	'LBL_COPY_BILLING_ADDRESS'     => 'Копировать Адрес для выставления счета'        , 
-	'LBL_PO_INFORMATION'           => 'Заказ на Закупку', 
-	'PurchaseOrder No'             => 'Заказ на Закупку №', 
-	'Requisition No'               => 'Заказ №'              , 
-	'Tracking Number'              => 'Отслеживаемый Номер', 
-	'Sales Commission'             => 'Коммисия'            , 
-	'LBL_PAID'                     => 'Оплаченный'                        , 
-	'LBL_BALANCE'                  => 'Баланс'                     , 
-	'Received Shipment'            => 'Получено с Доставкой', 
-        'LBL_LIST_PRICE'               => 'Прайс-лист',
-        'List Price'                   => 'Прайс-лист',
-        'LBL_COPY_COMPANY_ADDRESS' => 'Копировать Адрес компании',
+    'SINGLE_PurchaseOrder'         => 'Закупка',
+    'LBL_EXPORT_TO_PDF'            => 'Экспорт в PDF:'       ,
+    'LBL_SEND_MAIL_PDF'            => 'Отправить PDF по Email:',
+    'LBL_ADD_RECORD'               => 'Добавить Закупку',
+    'LBL_RECORDS_LIST'             => 'Список Закупок',
+    'LBL_COPY_SHIPPING_ADDRESS'    => 'Копировать фактический адрес в юридический',
+    'LBL_COPY_BILLING_ADDRESS'     => 'Копировать юридический адрес в фактический',
+    'LBL_PO_INFORMATION'           => 'Закупка',
+    'PurchaseOrder No'             => 'Закупка №',
+    'Requisition No'               => '№'              ,
+    'Tracking Number'              => 'Отслеживаемый номер',
+    'Sales Commission'             => 'Коммисия'            ,
+    'LBL_PAID'                     => 'Оплачено',
+    'LBL_BALANCE'                  => 'Баланс',
+    'Received Shipment'            => 'Получено с доставкой',
+    'LBL_LIST_PRICE'               => 'Прайс-лист',
+    'List Price'                   => 'Прайс-лист',
+    'LBL_COPY_COMPANY_ADDRESS'     => 'Копировать адрес компании',
 );
